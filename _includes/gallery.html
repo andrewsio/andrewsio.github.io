@@ -1,14 +1,111 @@
-<div class ="image-gallery">
-  {% assign sorted = site.static_files | sort: 'date' | reverse %}
-  {% for file in sorted %}
-  {% if file.path contains include.folder %}
-  {% if file.extname == '.jpg' %}
+{% comment %} First, collect all images with their associated post data {% endcomment %}
+{% assign image_posts = '' | split: '' %}
+
+{% for file in site.static_files %}
+  {% if file.path contains include.folder and (file.extname == '.jpg' or file.extname == '.jpeg') %}
     {% assign filenameparts = file.path | split: "/" %}
-      {% assign filename = filenameparts | last | replace: file.extname,"" %}
-       <div class="box"><a href="{{ file.path | relative_url }}" title="{{ filename }}">
-         <img src="https://ik.imagekit.io/koctv65kbia/andrewsio{{ file.path }}?tr=w-300" alt="{{ filename }}"  class="img-gallery" />
-       </a></div>
+    {% assign filename = filenameparts | last | replace: file.extname,"" %}
+    {% assign relative_path = file.path | remove_first: '/' %}
+    
+    {% comment %} Skip images with filenames starting with 'traintoturkey' {% endcomment %}
+    {% if filename contains 'traintoturkey' %}
+      {% continue %}
+    {% endif %}
+    
+    {% comment %} Find if this image is used in any post {% endcomment %}
+    {% for post in site.posts %}
+      {% if post.image == file.path or post.image == relative_path or post.image contains file.name %}
+        {% assign post_url = post.url | relative_url %}
+        {% assign post_title = post.title %}
+        {% assign post_date = post.date %}
+        
+        {% comment %} Check if the post is using a different image path than the file path {% endcomment %}
+        {% if post.image %}
+          {% assign image_path = post.image | relative_url %}
+        {% else %}
+          {% assign image_path = file.path | relative_url %}
+        {% endif %}
+        
+        {% comment %} Create an entry for this image {% endcomment %}
+        {% assign entry = "" | split: "" %}
+        {% assign entry = entry | push: post_date %}
+        {% assign entry = entry | push: file %}
+        {% assign entry = entry | push: post_url %}
+        {% assign entry = entry | push: post_title %}
+        {% assign entry = entry | push: image_path %}
+        {% assign entry = entry | push: relative_path %}
+        
+        {% assign image_posts = image_posts | push: entry %}
+        {% break %}
       {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% comment %} Sort the images by post date (newest first) {% endcomment %}
+{% assign sorted_images = '' | split: '' %}
+{% assign sorted_dates = '' | split: '' %}
+
+{% comment %} First, extract all dates and sort them {% endcomment %}
+{% for entry in image_posts %}
+  {% assign sorted_dates = sorted_dates | push: entry[0] %}
+{% endfor %}
+{% assign sorted_dates = sorted_dates | sort | reverse %}
+
+{% comment %} Then build the sorted array {% endcomment %}
+{% for date in sorted_dates %}
+  {% for entry in image_posts %}
+    {% if entry[0] == date %}
+      {% assign sorted_images = sorted_images | push: entry %}
+      {% break %}
     {% endif %}
   {% endfor %}
- </div>
+{% endfor %}
+
+<div class="image-gallery">
+  {% if sorted_images.size > 0 %}
+    {% for entry in sorted_images %}
+      {% assign post_date = entry[0] %}
+      {% assign file = entry[1] %}
+      {% assign post_url = entry[2] %}
+      {% assign post_title = entry[3] %}
+      {% assign image_path = entry[4] %}
+      {% assign relative_path = entry[5] %}
+      
+      <div class="box">
+        <a href="{{ post_url }}" title="{{ post_title }}" class="gallery-link">
+          <img 
+            src="{{ image_path }}" 
+            data-src="https://ik.imagekit.io/koctv65kbia/{{ relative_path }}?tr=w-300"
+            alt="{{ post_title }}"  
+            class="img-gallery" 
+            loading="lazy"
+            onerror="this.onerror=null; this.src=this.dataset.src;"
+          />
+          {% if post_title %}
+            <div class="gallery-caption">{{ post_title }}</div>
+          {% endif %}
+        </a>
+      </div>
+    {% endfor %}
+  {% else %}
+    <p>No linked images found in blog posts.</p>
+  {% endif %}
+</div>
+
+<script>
+// Fallback to ImageKit if local image fails to load
+document.addEventListener('DOMContentLoaded', function() {
+  const images = document.querySelectorAll('.img-gallery[data-src]');
+  
+  images.forEach(img => {
+    // If image fails to load, try the ImageKit URL
+    img.addEventListener('error', function() {
+      if (this.dataset.src && !this.getAttribute('data-fallback-applied')) {
+        this.src = this.dataset.src;
+        this.setAttribute('data-fallback-applied', 'true');
+      }
+    });
+  });
+});
+</script>

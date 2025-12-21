@@ -15,8 +15,9 @@ menu:
 - name: 'Other'
   path: '#'
   dropdown:
+    - {name: 'Photos', path: 'menu', url: 'photos.html'}
     - {name: 'Rail Map', path: 'menu', url: 'railmap.html'}
-- {name: 'Archive', path: 'menu', url: 'archive.html'}
+    - {name: 'Archive', path: 'menu', url: 'archive.html'}
 
 link:
 - {name: 'Social', path: 'ext', url: 'https://mastodon.world/@14zz4'}

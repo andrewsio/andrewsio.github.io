@@ -25,7 +25,28 @@ layout: default
 </span>
 
 {% if page.image %}
-  <img src="{{ site.github.url }}/{{ page.image }}">
+  {% assign image_path = page.image | remove_first: '/' %}
+  <div class="post-header-image">
+    <img 
+      src="{{ image_path | relative_url }}" 
+      data-src="https://ik.imagekit.io/koctv65kbia/{{ image_path }}"
+      alt="{{ page.title }}"
+      class="post-image"
+      onerror="this.onerror=null; this.src=this.dataset.src;"
+    >
+  </div>
+  <style>
+    .post-header-image {
+      margin: 20px 0;
+      text-align: center;
+    }
+    .post-header-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+  </style>
 {% endif %}
 
 {{ content }}
