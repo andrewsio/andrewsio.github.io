@@ -1,17 +1,10 @@
 # Site Build Settings
 
-# Jekyll-paginate-v2 configuration
-#  pagination:
-#   enabled: true
-#   per_page: 5
-#   permalink: '/page/:num/'
-#   title: ':title - page :num of :max'
-#   limit: 0
-#   sort_field: 'date'
-#   sort_reverse: true
+# Pagination configuration
+paginate: 8
 
-# jekyll-paginate configuration
-paginate:            8
+# Drafts configuration
+show_drafts: false
 
 # Build settings
 markdown:            kramdown

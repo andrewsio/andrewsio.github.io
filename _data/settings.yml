@@ -5,18 +5,25 @@ disqus:
 
 menu:
 - {name: 'About', path: 'menu', url: 'about.html'}
-- {name: 'Blog', path: 'menu', url: 'archive.html'}
-- {name: 'Rail Map', path: 'menu', url: 'railmap.html'}
-- {name: 'The List', path: 'menu', url: 'thelist.html'}
-- {name: 'Countries', path: 'menu', url: 'countries.html'}
+- name: 'Lists'
+  path: '#'
+  dropdown:
+    - {name: 'The List', path: 'menu', url: 'thelist.html'}
+    - {name: 'Countries', path: 'menu', url: 'countries.html'}
+    - {name: 'Movies', path: 'menu', url: 'movies.html'}
+    - {name: 'Books', path: 'menu', url: 'books.html'}
+- name: 'Other'
+  path: '#'
+  dropdown:
+    - {name: 'Rail Map', path: 'menu', url: 'railmap.html'}
+- {name: 'Archive', path: 'menu', url: 'archive.html'}
+
 link:
-- {name: 'Micro.blog', path: 'ext', url: 'https://micro.andrews.io/'}
+- {name: 'Social', path: 'ext', url: 'https://mastodon.world/@14zz4'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {fa-type: 'fab', icon: 'mastodon', link: 'https://mastodon.world/@14zz4'}
-- {fa-type: 'fab', icon: 'microblog', link: 'https://micro.andrews.io'}
-- {fa-type: 'fab', icon: 'twitter', link: 'https://twitter.com/14zz4'}
 - {fa-type: 'fas', icon: 'envelope', link: 'mailto:laurence@andrews.io'}
 - {fa-type: 'fas', icon: 'rss-square', link: '/feed.xml'}
 

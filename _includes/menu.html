@@ -1,7 +1,18 @@
 <div class="menu">
   <nav class="menu-content">
       {% for item in site.data.settings.menu %}
-        <a href="{{ site.github.url }}/{{ item.path }}/{{ item.url }}">{{ item.name }}</a>
+        {% if item.dropdown %}
+          <div class="dropdown">
+            <a href="#" class="dropbtn">{{ item.name }} ▼</a>
+            <div class="dropdown-content">
+              {% for subitem in item.dropdown %}
+                <a href="{{ site.github.url }}/{{ subitem.path }}/{{ subitem.url }}">{{ subitem.name }}</a>
+              {% endfor %}
+            </div>
+          </div>
+        {% else %}
+          <a href="{{ site.github.url }}/{{ item.path }}/{{ item.url }}">{{ item.name }}</a>
+        {% endif %}
       {% endfor %}
       {% for item in site.data.settings.link %}
         <a href="{{ item.url }}">{{ item.name }}</a>
