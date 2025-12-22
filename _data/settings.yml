@@ -10,6 +10,8 @@ menu:
   dropdown:
     - {name: 'The List', path: 'menu', url: 'thelist.html'}
     - {name: 'Countries', path: 'menu', url: 'countries.html'}
+    - {name: 'Table', path: 'menu', url: 'table.html'}
+    - {name: 'Stage', path: 'menu', url: 'stage.html'}
     - {name: 'Movies', path: 'menu', url: 'movies.html'}
     - {name: 'Books', path: 'menu', url: 'books.html'}
 - name: 'Other'
