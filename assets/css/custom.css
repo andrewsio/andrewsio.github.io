@@ -17,3 +17,50 @@
   clear: both;
   display: table;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .clearfix {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .float-right {
+    float: none;
+    margin: 10px auto;
+    order: 2;
+    max-width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  
+  .float-right img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .clearfix h2 {
+    order: 1;
+    padding: 0 15px;
+  }
+  
+  .clearfix p {
+    order: 3;
+    padding: 0 15px;
+  }
+  
+  /* Extra small devices */
+  @media (max-width: 480px) {
+    .float-right {
+      margin: 10px auto;
+    }
+    
+    .float-right img {
+      max-height: 250px;
+    }
+  }
+}
