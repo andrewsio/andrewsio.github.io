@@ -3,7 +3,7 @@
   {% if first_char == '/' %}
     <a href="{{ site.baseurl }}{{ item.link }}"><i class="{{ item.fa-type }} fa-{{ item.icon }}" aria-hidden="true"></i></a>
   {% else %}
-    <a href="{{ item.link }}" target="_blank"><i class="{{ item.fa-type }} fa-{{ item.icon }}" aria-hidden="true"></i></a>
+    <a href="{{ item.link }}" target="_blank" {% if item.icon == 'mastodon' %}rel="me"{% endif %}><i class="{{ item.fa-type }} fa-{{ item.icon }}" aria-hidden="true"></i></a>
   {% endif %}
 {% endfor %}
 
