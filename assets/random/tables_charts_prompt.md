@@ -48,7 +48,26 @@ Populate the data in the following code blocks exactly as defined.
 
 **1. Category Spend Stacked (Bar)**
 ```javascript
-new Chart(document.getElementById('categorySpendStacked'), {
+<!-- 1. Category Spend Stacked (Bar) -->
+<div class="chart-wrap">
+  <canvas id="categorySpendStacked"></canvas>
+</div>
+
+<style>
+  .chart-wrap{
+    position: relative;
+    width: 100%;
+    height: 360px;
+  }
+  @media (max-width: 600px){
+    .chart-wrap{ height: 520px; }
+  }
+</style>
+
+<script>
+const categorySpendStackedCanvas = document.getElementById('categorySpendStacked');
+
+new Chart(categorySpendStackedCanvas, {
   type: 'bar',
   data: {
     labels: [/// per categories ///],
@@ -60,10 +79,38 @@ new Chart(document.getElementById('categorySpendStacked'), {
     ]
   },
   options: {
-    plugins: { title: { display: true, text: 'Monthly spend by category (stacked by week)' } },
-    scales: { x: { stacked: true }, y: { stacked: true, title: { display: true, text: 'Spend (£)' } } }
+    responsive: true,
+    maintainAspectRatio: false,
+    layout: { padding: { top: 8, right: 8, bottom: 8, left: 8 } },
+    plugins: {
+      title: { display: true, text: 'Monthly spend by category (stacked by week)' },
+      legend: { position: 'bottom', labels: { boxWidth: 10 } },
+      tooltip: { mode: 'index', intersect: false }
+    },
+    interaction: { mode: 'index', intersect: false },
+    scales: {
+      x: {
+        stacked: true,
+        ticks: {
+          autoSkip: true,
+          maxRotation: 60,
+          minRotation: 60,
+          padding: 6
+        }
+      },
+      y: {
+        stacked: true,
+        title: { display: true, text: 'Spend (£)' },
+        ticks: { callback: (v) => '£' + v }
+      }
+    }
   }
 });
+
+window.addEventListener('orientationchange', () =>
+  Chart.getChart(categorySpendStackedCanvas)?.resize()
+);
+</script>
 
 ```
 
