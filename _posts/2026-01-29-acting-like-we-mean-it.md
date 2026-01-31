@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Acting Like we Mean It: 2026"
-date:   2025-01-29 00:00:00 +0000
+date:   2026-01-29 00:00:00 +0000
 categories: blog
 history: 
 location: High Halstow, Kent, UK

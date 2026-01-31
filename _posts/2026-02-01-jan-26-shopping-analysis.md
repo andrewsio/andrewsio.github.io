@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "January 2026 Shopping Analysis"
-date:   2025-02-01 00:00:00 +0000
+date:   2026-01-31 00:00:00 +0000
 categories: blog
 history: 
 location: High Halstow, Kent, UK
@@ -9,15 +9,17 @@ image:
 ---
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-Something new for 2026, I want to start showing some data visualisations of our shopping habits, in-line with our diet and spending goals. Aim is to keep us accountable and aligned with the direction of travel.
+Something new for 2026, I want to start showing some data visualisations of our shopping habits. This should then help see how we're aligned with our diet and spending goals. Aim is to keep us accountable and aligned with the direction of travel.
 
 Before now getting to this level of data has been essentially impossible unless manually categorising everything from random paper receipts. However, we now shop at places with e-receipts which I can pump into my AI tool of choice to provide analysis for me based on defined prompts. Yes, this is incredibly obsessive and geeky, leave me alone. 
 
-To help produce this, I use ChatGPT to process an input file (PDF or image) using [this prompt](/assets/random/data_extraction_categorisation_prompt.md), I ask it to process each receipt one by one, which allows me to manually validate categorisation and correct any mistakes. Once done, I combine into a master CSV for the month. I then ask ChatGPT to process that file using [this prompt](/assets/random/tables_charts_prompt.md) and provide tables for review and charts based on pre-defined templates. I've found this an interesting excercise in prompt engineering and using these tools. Generally, proviign too much to do at once has led to inaccuracies and weirdness and processing more slowly step by step has produced better outputs. 
+To help produce this, I use ChatGPT to process an input file (PDF or image) using [this prompt](/assets/random/data_extraction_categorisation_prompt.md), I ask it to process each receipt one by one, which allows me to manually validate categorisation and correct any mistakes. Once done, I combine into a master CSV for the month. I then ask ChatGPT to process that file using [this prompt](/assets/random/tables_charts_prompt.md) and provide tables for review and charts based on pre-defined templates. I've found this an interesting excercise in prompt engineering and using these tools. Generally, providing too much to do at once has led to inaccuracies and weirdness. Often the tools would wander and try to overachieve, despite clear boundaries. Processing more slowly and providing very specific and clear prompts has produced better outputs. 
 
-I think we'll work on this through the year, and see what we can learn from the data. I genuinely have no idea what % of our shopping spend is meat vs vegetables, so will be interesting to see.
+I think we'll work on this through the year, and see what we can learn from the data. I genuinely have no idea what % of our shopping spend is meat vs vegetables, for example, so will be interesting to see.
 
-This first graph I've tried to break down into somewhat relevant categories. Actually quite surprising already how much we spend on things like vegetables vs Treats & Snacks. We have been particularly healthy this month though, so that may be why. 
+This first graph I've tried to break down into somewhat relevant categories that will help us understand consumption patterns. For example, breaking down lentils/pulses, cheese and eggs into seperate categories. Actually quite surprising already how much we spend on things like vegetables vs Treats & Snacks, although we have been exceptionally healthy this month, so that may be why.
+
+Total spend for January 2026: £608.79
 
 <div class="chart-wrap">
   <canvas id="categorySpendStacked"></canvas>
@@ -87,21 +89,23 @@ Categories look like this:
 - **Fruit** – Fresh fruit eaten raw or used in meals and snacks, whether loose or packaged. This includes everyday and seasonal fruit. Dried fruit is excluded.
 - **Vegetables (incl roots)** – Fresh cooking vegetables, including roots and non-leafy produce, plus fresh herbs used in cooking.
 - **Salad & Leafy Greens** – Leafy and salad-style produce typically eaten raw or lightly dressed, including mixed salad bags and salad vegetables.
-- **Meat & Fish** – Raw or minimally processed meat and fish bought as core protein ingredients.
-- **Eggs** – Whole eggs purchased as a standalone item.
+- **Meat & Fish** – Raw or minimally processed meat and fish.
+- **Eggs** – The chicken kind, not the chocolate kind. 
 - **Dairy** – Liquid and spoonable dairy products such as milk, yoghurt and cream. Butter is excluded.
 - **Cheese** – Solid and soft cheeses bought as ingredients or standalone foods.
-- **Bakery & Bread** – Bread and bakery staples such as loaves, wraps and baguettes. Filo pastry is always included.
-- **Beans & Pulses** – Dried or tinned beans and pulses used as cooking staples. Quinoa is always included.
-- **Ready Meals & Prepared** – Foods designed to be heated and eaten with little or no preparation.
-- **Treats & Snacks** – Foods bought primarily for enjoyment, including sweet and savoury snacks.
-- **Rice Pasta & Grains** – Dry grains and carbohydrates used as meal bases, including rice, pasta and oats.
-- **Dried Fruit & Nuts** – Shelf-stable dried fruit and nuts used for snacking or cooking.
-- **Cupboard & Cooking** – Shelf-stable cooking ingredients and staples not usually eaten alone.
+- **Bakery & Bread** – Bread and bakery staples such as loaves, wraps and baguettes.
+- **Beans & Pulses** – Dried or tinned beans and pulses used as cooking staples. 
+- **Ready Meals & Prepared** – Foods designed to be heated and eaten with little or no preparation. Kids ready meals, nuggets, fish fingers, pizza, quiche, etc.
+- **Treats & Snacks** – Foods bought for enjoyment, including sweet and savoury snacks. Some healthy-ish, some not. 
+- **Rice Pasta & Grains** – Dry grains and carbohydrates used as meal bases, including rice, pasta, couscous, oats and barley.
+- **Dried Fruit & Nuts** – Shelf-stable dried fruit and nuts used for snacking or cooking. Mostly healthy.
+- **Cupboard & Cooking** – Shelf-stable cooking ingredients and staples not usually eaten alone. Tinned tomatoes, sauces, condiments, stock, etc
 - **Fats & Oils** – Cooking fats, including oils and butter.
-- **Drinks** – Non-alcoholic drinks and drink bases, including water and soft drinks.
+- **Drinks** – Non-alcoholic drinks, cordials, teas, coffee, syrups, water, etc. Not alcohol.
 
-Here's a breakdown of our spend across different shops by week. We're trying to focus on Ocado as our big weekly shop. We have the delivery saver, so want to make use of it. We have been using Lidl for top-up shops and a little bit of M&S here and there, usually when it's convenient.
+Here's a breakdown of our spend across different shops by week. We're trying to focus on Ocado as our big weekly shop. We have the delivery saver, so want to make use of it. We have been using Lidl for top-up shops and a little bit of M&S here and there, usually when it's convenient. We also shop at Costco, but that's usually a quarterly visit. We'll need to add that in here at some point. 
+
+Sticking to a weekly meal plan should help narrow our shopping habits as in years past we tend to freestyle and go wherever and whenever and generally not having a structured plan. Not a good idea. 
 
 <canvas id="shopSpendByWeek"></canvas>
 <script>
@@ -144,7 +148,7 @@ new Chart(document.getElementById('shopSpendByWeek'), {
 });
 </script>
 
-We can buy both M&S and Ocado branded items from Ocado, so this shows the brand composition regardless of where we shop. Generally we've found M&S branded to be better than Ocado although Ocado is almost always marginally cheaper. For example, milk is usually 10 or 20p cheaper for the Ocado brand.
+The major brands from Ocado are M&S and Ocado-own, so this shows the brand composition regardless of where we shop. Generally we've found M&S branded to be better than Ocado although Ocado is almost always a little cheaper. For example, milk is usually 10 or 20p cheaper for the Ocado brand.
 
 <canvas id="brandMix"></canvas>
 <script>
@@ -167,7 +171,9 @@ new Chart(document.getElementById('brandMix'), {
 
 ## Organic 
 
-One of our annual goals is to eat more organic food. It's surprisingly difficult in the UK to get a good variety of organic. As you can wee from the chart, we conducted a bit of an experiment in Week 4. It was possible, but quite limited by selection, even on Ocado. Some items were noticably better, the chicken although expenisve was superb and the apples, salad and tomatoes were really good. I don't think a 50% composition weekly is achievable yet, I think we need to warm into it slightly. 
+One of our annual goals is to eat more organic food. It's surprisingly difficult in the UK to get a good variety of organic. As you can see from the chart, we (I, lol) conducted a bit of an experiment in Week 4. I think a good excercise, it was certainly possible to switch but the range does has it's limits. Some items were noticably better in quality, the chicken although expenisve was very, very good and the apples, salad and tomatoes were much tastier. All a lot more expensive though. The Milk, Eggs and Yoghurt we found to be comparable, but I think the main benefit there is welfare standards. I don't think a 50% Organic composition weekly is achievable yet so we need to warm into it more slowly. It is psychologically challenging to pick the more expensive option when the label appears to be the only visual difference. 
+
+For Feburary, I think we'll commit to Organic is specific areas. Dairy and cheese seems to be a practical starting place, as the price jump isn't too large. On that, I was pleasantly surprised to see that the supplied milk at work is Organic. Go Colliers! Eggs is another option, although the jump from ~25p to ~50p an egg is quite a jump. 
 
 <canvas id="organicByCategory"></canvas>
 <script>
