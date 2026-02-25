@@ -83,7 +83,7 @@ Total: 51/327 (15.59%)
 
 ### Africa (2/55)
 
-* 🇲🇦 [Morocco](/tag/morocco) (2012, 2025)
+* 🇲🇦 [Morocco](/tag/morocco) (2012, 2025, 2026)
 * 🇪🇬 [Egypt in Africa](/tag/egypt) (2017, 2018)
 
 ### Middle East (2/21)
