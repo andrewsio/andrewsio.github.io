@@ -6,6 +6,7 @@ categories: blog
 history: 
 location: High Halstow, Kent, UK
 image: 
+hide: true
 ---
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
