@@ -4,6 +4,7 @@ title: Home
 ---
 
 {% for post in paginator.posts %}
+{% unless post.hide %}
 <div class="posts">
   <h1>
     <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
@@ -22,6 +23,7 @@ title: Home
     {{ post.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}{{ post.url }}">Read more</a>
   </p>
 </div>
+{% endunless %}
 {% endfor %}
 
 <!-- Pagination links -->
