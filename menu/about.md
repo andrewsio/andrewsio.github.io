@@ -1,11 +1,8 @@
 ---
-layout: page
+layout: about
 title: 👋 Hey! I'm Laurence
+profile_image: /assets/img/068d502b659e.jpeg
 ---
-
-<div class="profile-pic">
-  <img src="/assets/img/068d502b659e.jpeg" alt="Laurence">
-</div>
 
 I am a dad, husband, technology guy, occasional blogger, ex-scuba diver and weekend sailor. I live in the English village of [High Halstow](https://en.wikipedia.org/wiki/High_Halstow) with my wife, Victoria, daughter, Charlotte and miniature dachshund, Dexter 🐶. This is my blog, where I post about all sorts of things, from [why I can't eat oysters](https://andrews.io/blog/so-long-oysters.html) to the time [I took a train to Turkey](https://andrews.io/blog/train-to-turkey-intro.html) and many other things in between. I don't really do the socials, because I think they're [bad for us](https://ledger.humanetech.com/), but you can find me on [<i class="fab fa-mastodon"></i>Mastodon](https://mastodon.world/@14zz4) if that's your thing.
 
