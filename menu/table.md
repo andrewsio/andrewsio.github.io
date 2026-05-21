@@ -45,14 +45,6 @@ Here's a few places I've visited for exceptional food, mostly close to home, but
   <p>Another spot that's not too accessible, I visited and stayed with Dad as part of dinner for his horse racing syndicate. The building is incredible, full of history, irreplacable horse racing memorabilia and oil paintings of the late queen. The dinner was served on an enormous, grand table with silver candelabras and centuries-old trophies as showpieces. We drank a lot of rather lovely wine. Breakfast the following morning was equally as impressive, with very old-school service - kippers any one? Ask me about the loos.</p>
 </div>
 
-<div class="clearfix">
-  <div class="float-right">
-    <img src="/assets/img/5584d888f4f0.jpeg" alt="Le Verbois">
-  </div>
-  <h2>Le Verbois, Chantilly, France (*)</h2>
-  <p>This was a very, very lovely place. Dad and I were staying in Chantilly for the weekend for some horse-related activities. While we were there we snuck away from the main group for a dinner at the beautiful Le Verbois. It was a great experience, the food was a discovery we had a 6-course tasting menu which included lobster, veal and red snapper. The desert was a celebration of strawberry as they had just come into season. We had a wonderful bottle of Pouilly-Fuissé, a 2023 Tête-de-Cuvée from Chateau Fuissé alongside champagne to start and Red Bourgogne with the veal. Great company and a lovely atmosphere.<p>
-</div>
-
 <h2>C&R Café Restaurant, Soho</h2>
 <p>This is no fine-dining restaurant, but I love that is proves that in London you can find any cuisine from around the world and know that it is virtually the same as you'd have locally. Malaysia is where Victoria and I went for our Honeymoon in 2019 and this was the first stop on my stag do weekend. Order the laksa soup. (Sorry, no good pictures!)</p>
 
@@ -69,6 +61,14 @@ Here's a few places I've visited for exceptional food, mostly close to home, but
 </ul>
 
 # Abroad
+
+<div class="clearfix">
+  <div class="float-right">
+    <img src="/assets/img/5584d888f4f0.jpeg" alt="Le Verbois">
+  </div>
+  <h2>Le Verbois, Chantilly, France (*)</h2>
+  <p>This was a very, very lovely place. Dad and I were staying in Chantilly for the weekend for some horse-related activities. While we were there we snuck away from the main group for a dinner at the beautiful Le Verbois. It was a great experience, the food was a discovery we had a 6-course tasting menu which included lobster, veal and red snapper. The desert was a celebration of strawberry as they had just come into season. We had a wonderful bottle of Pouilly-Fuissé, a 2023 Tête-de-Cuvée from Chateau Fuissé alongside champagne to start and Red Bourgogne with the veal. Great company and a lovely atmosphere.</p>
+</div>
 
 <div class="clearfix">
   <div class="float-right">
@@ -92,9 +92,6 @@ Here's a few places I've visited for exceptional food, mostly close to home, but
   </div>
 <h2>Horta, Funchal, Madeira</h2>
 <p>The gastronomy of Maderia seems to punch well above its weight, there are several restaurants with stars on this small little island. Horta doesn't have a star, but it was downstairs from where we were staying and after some organisation we managed to find a babysitter to mind Charlotte (who was asleep) and head down for a very pleasant meal together. It was lovely, the decor was great, atmosphere was spot on and the cocktails were outstanding.</p></div>
-
-<h2>Le Verbois, Chantilly, France</h2>
-<p>This was a very, very lovely place. Dad and I were staying in Chantilly for the weekend for some horse-related activities. While we were there we snuck away from the main group for a dinner at the beautiful Le Verbois. It was a great experience; the food was a discovery. We had a 6-course tasting menu which included lobster, veal and red snapper. The dessert was a celebration of the strawberry as they had just come into season. We had a wonderful bottle of Pouilly-Fuissé, a 2023 Tête-de-Cuvée from Chateau Fuissé alongside champagne to start and Red Bourgogne with the veal. A superb experience with great company and a lovely atmosphere.</p>
 
 <h1>Wishlist</h1> 
 <p>Here's a few spots that I'd love to visit but haven't had the opportunity to yet...</p>
