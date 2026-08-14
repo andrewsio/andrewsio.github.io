@@ -3,49 +3,52 @@ layout: page
 title: Wish List
 ---
 
-A running list of things on our radar. In recent years we've been careful not to just buy things on a whim, but to plan for them and make sure we balance across what else we would like. We generally try and 'buy for life', as much as that's possible to do these days - unfortunately that almost always means buying the most expensive version, but that approach has worked well for us over the years. Everything here is a *want* not a *need*, which is a wonderful place to be. We are both now of the age where we recognise that buying more stuff doesn't equal happiness, and find it quite healthy having a list of things which we'd like but are managing just fine without. Items are obviously  grouped below and this list is updated from time to time as we purchase things.
-
-## Home Improvements
-- **Additional smoke alarms.** We'd like to cover the loft and garage. We need 1x Ei208WRF (CO), 2x Ei660iRF (loft & garage), 1x Ei168 (radio interlink)
-- **Garden landscaping & paving.** This is a 2027 project.
-- **Water softener.** We have very hard water in Kent, it sucks, but this would solve it.
-- **Bracket for the lounge TV.** Our Sofa isn't directly in front of the TV, I'd like a motorised [bracket][bracket] so we can make it so.
+A running list of things on our radar. In recent years we've been careful not to just buy things on a whim, but to plan for them and make sure we balance a purchase against what else we would like. We generally try and 'buy for life', as much as that's possible to do these days - although unfortunately that almost always means buying the most expensive version, although that approach has worked well for us over the years. Everything on this list is a *want* not a *need*, which is a wonderful and very lucky place to be. Victoria and I are now in the space where we recognise that simply buying more stuff doesn't equal happiness, and actually find it quite healthy having a list of things which we'd like, but are also managing just fine without. We're ever conscious that even if we had all the things listed here, we'd only ever add more stuff anyway. 
+## Home & Garden Improvements
+- **Additional Smoke Alarms.** We have the right smoke alarms in out home, but would like to also cover the loft and garage. We need 1x Ei208WRF (CO), 2x Ei660iRF (loft & garage), 1x Ei168 (radio interlink).
+- **Garden Landscaping & Paving.** A 2027 project to improve our outdoor space, not going to be cheap. Possibly a DIY project.
+- **Water Softener.** We have very hard water in Kent, it sucks, and cleaning the shower is a PITA. This would solve it but it's expensive.
+- **Lounge TV Bracket.** Our Sofa isn't directly in front of the TV, I'd like a motorised [bracket][bracket] so we can make it so.
+- **Greenhouse & Raised beds.** Victoria has developed green-fingers and we need a space to propagate all her wonderful plants.
+- **Air Conditioning.** 2026 has been an absurdly hot summer. We have managed with portable units but they're a PITA. We'd love for it to be fitted properly.
 
 ## Clothes
-- **Dubarry boots for dog walking.** I love my Dubarry's for sailing, but don't want to ruin them for walking, [these would be ideal][boots]. Yes, I have wellies too.
-- **Sailing salopettes.** I have some already, but as many sailors know, they're a pain when you need a wee. [These ones][[salopettes]] have a special sit-down flap.
+- **Dubarry Boots.** I love my Dubarry's for sailing, but don't want to ruin them for dog walking, [these would be ideal][boots]. Yes, I know I have wellies too.
+- **Sailing salopettes.** I have some already, but as many sailors know, they're a pain when you need a wee. [These ones][[salopettes]] have a special sit-down flap. I am lazy and I get sick when down below in swell.
 
 ## Kitchen
 - **Drinking water filter.** A Doulton Filter or a [reverse osmosis system][osmosis]. Lots of chat about microplastics and health issues, who knows if that's true. Would be nice to have cleaner drinking water.
-- **[Fizzy drink maker][water-maker].** We buy bottled fizzy water which is not exactly great for the environment. 
-- **Sage coffee machine.** [It's a lot for a cup of coffee][coffee], but I despise paying Nestle for Nespresso pods. 
-- **[Robert Welch cutlery][cutlery].** We have one teaspoon in our drawer that is classy AF (probably pinched) and it's a small win when I find it for a yoghurt. 
-- **A full Villeroy & Boch tableware set.** I love the depth of the Royal collection. Yes, I a have a bit of an obsession with a well-made table. We already have a full suite of fancy glassware!
-- **[Pressure canner][pressure-canner].** I'd love to preserve beans and other vegetables from summer into jars. This is a thing in North America, but less so here in the UK.
-- **[Food processor][food-processor].** We want the big daddy food processor. It's £500 when on offer, which is insane but it is (hilariously) probably top of the list.
+- **[Fizzy drink maker][water-maker].** I like fizzy water, we buy bottled which is not exactly great. 
+- **Sage Espresso machine.** [It's a lot][coffee] of up-front cost for a coffee, but I despise giving Nestle money for Nespresso pods. 
+- **[Robert Welch Cutlery][cutlery].** We have one teaspoon in our drawer that is classy AF and it's a small win when I find it for a yoghurt. I've love to have a proper set for formal meals.
+- **Villeroy & Boch Tableware Set.** I love the depth of the Royal collection. I fully recognise that I have an obsession with a well-made table. Thankfully we already have a full suite of glassware!
+- **[Pressure Canner][pressure-canner].** A little random, but I'd love to preserve beans and other vegetables from summer into jars. This is a thing in North America, but less so here in the UK. This one place seems to import and sell them in the UK.
+- **[Food Processor][food-processor].** We want the big daddy Sage food processor. It's £500 when on offer, which is insane but it is (hilariously) probably top of the list.
 
 ## Technology
-- **Silent network switch.** We have a cranky Cisco gigabit PoE switch in the garage serving the house, it's noisy and I can just about hear it from our bedroom which I'm not a big fan of.
+- **Silent Network Switch.** We have a cranky Cisco gigabit PoE switch in the garage serving the house, it's noisy and I can just about hear it from our bedroom which is annoying when trying to sleep.
 - **AirPods.** I lost mine in Glasgow airport and have been stubborn about replacing them. I just don't listen to anything if I end up commuting, or pinch Victoria's! 
 - **Neohub Gen3 for the UFH controllers.** Our extension has underfloor heating but I can't control it from an App, this would fix that.
 - **NAS device** for storing files and running small apps/services. I used to store all pictures in full-res on my Macbook, but the library got too big. I'd like to have a local copy of everything.
-- **New iPad for Charlotte.** The poor soul has an iPad that doesn't support Disney Plus (but that also saves us a subscription!).
+- **New iPad for Charlotte.** The poor soul has an iPad that doesn't support Disney Plus but that helpfully saves from paying for a subscription.
 - **New Macbook.** This is not a priority, but my current Macbook (An 2021 M1 Pro, 32Gb RAM) is now 5-years old. Which is quite incredible as it's still working perfectly, but in a year or two that won't be the case.
+- **UPS.** When we lose grid power, and when we do it's most often just a few seconds, it takes 10 minutes for the network to come back, which is very annoying.
 
 ## Fitness
 - **Monitor for the rower/garage.** I enjoy using the rower, but I would like a screen to watch something as I get bored listening to music.
 
 ## Preparedness & Camping
-I could write a whole piece on this topic, but our general objective here is independence from mains services for a week. 
+I could write a whole piece on this topic, but our general objective is to gain independence from mains utility services and shops for a week. 
 
-- **Better home battery & integrated grid switch.** We'd like to upgrade our GivEnergy system for a PowerWall with capacity to manage winter months and handle power outages. Our heating and hot water is all electric, but if we have no mains power and a series of continually grey days, we'd struggle over winter.
+- **Better home battery & integrated grid switch.** We'd like to upgrade our GivEnergy system for a Tesla PowerWall and gateway with capacity to manage winter better and handle power outages. Our heating and hot water is all electric, so if we have no mains power and a series of continually grey days, we'd struggle over winter.
 - **Portable battery & solar panels.** More for camping, but a nice to have as a backup. We're lucky that Victoria's car can act as a portable battery and inverter and have actually used it in a power cut. For this, something like the Anker Solis range.
 - **Freezer for the garage.** We have two freezers already, but seldom have space for a meal prep and meat, I'd like something for longer-term storage for buying in bulk.
 - **Water storage.** This is a prep. I'd like to have ~120L of water available at home if there is a major shortage, mains water failure or other situation. 120L should cover us for about 5 days. We also have the water butts which store water suitable for toilet flushing. We generally have a few crates of bottled water but need something a bit more structured. 
 - **Better garage storage shelving.** My garage is great, but it is small and needs slightly better organisation to best utilise it.
 
 ## Long-Term
-- **A boat.** The big one. It's my dream to have a boat on the River Medway and to spend time sailing on it with family. Nothing too fancy, but we'd probably aim to spend about £50k to £60k for something ready to go. We'd want some something somewhat modern, safe, suitable for light-handing, comfortable and easy to manage. It's probably a cruiser-first, mass-production Jeanneau, Beneteau, or Bavaria. We likely wouldn't race it but it'd be nice to have a cruising sail or spinnaker. I'll keep dreaming.
+- **A Boat.** The big one. It's my dream to have a boat on the River Medway and to spend time sailing on it with our family. Nothing too fancy, but we'd probably aim to spend about £50k to £60k for something ready to go. We'd want some something somewhat modern, safe, suitable for light-handing, comfortable and easy to manage. I like the idea of a centre-cockpit with aft cabin, they are usually 36ft+. It'd probably a cruiser-first rather than racer-first, so some kind of mass-production Moody, Jeanneau, Beneteau, or Bavaria. We likely wouldn't race it but it'd be nice to have a cruising sail or spinnaker. Ideally we'd buy something that's going to be suitable for a decade or more. I'll keep dreaming.
+- **A Home Sauna.** I adore being in a sauna and having a good 'ol sweat. There are no Saunas in High Halstow and I'm not driving 25 minutes and paying a gym fee to use a shared one. 
 
 ## Purchased in 2026
 - ~~Shed for the back garden~~
