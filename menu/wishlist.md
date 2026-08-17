@@ -3,7 +3,7 @@ layout: page
 title: Wish List
 ---
 
-A running list of things on our radar. In recent years we've been careful not to just buy things on a whim, but to plan for them and make sure we balance a purchase against what else we would like. We generally try and 'buy for life', as much as that's possible to do these days - although unfortunately that almost always means buying the most expensive version, although that approach has worked well for us over the years. Everything on this list is a *want* not a *need*, which is a wonderful and very lucky place to be. Victoria and I are now in the space where we recognise that simply buying more stuff doesn't equal happiness, and actually find it quite healthy having a list of things which we'd like, but are also managing just fine without. We're ever conscious that even if we had all the things listed here, we'd only ever add more stuff anyway. 
+A running list of things on our radar. In recent years we've been careful not to just buy things on a whim, but to plan for them and make sure we balance a purchase against what else we would like. We generally try and 'buy for life', as much as that's possible to do these days - although unfortunately that almost always means buying the most expensive version, although that approach has worked well for us over the years. Everything on this list is a *want* not a *need*, which is a wonderful and very lucky place to be. Victoria and I are now in the space where we recognise that simply buying more stuff doesn't equal happiness, and actually find it quite healthy having a list of things which we'd like, but are also managing just fine without. We're ever conscious that even if we had all the things listed here, we'd only ever add more stuff anyway. We generally only include items here that are more than £100.
 ## Home & Garden Improvements
 - **Additional Smoke Alarms.** We have the right smoke alarms in out home, but would like to also cover the loft and garage. We need 1x Ei208WRF (CO), 2x Ei660iRF (loft & garage), 1x Ei168 (radio interlink).
 - **Garden Landscaping & Paving.** A 2027 project to improve our outdoor space, not going to be cheap. Possibly a DIY project.
@@ -30,6 +30,8 @@ A running list of things on our radar. In recent years we've been careful not to
 - **AirPods.** I lost mine in Glasgow airport and have been stubborn about replacing them. I just don't listen to anything if I end up commuting, or pinch Victoria's! 
 - **Neohub Gen3 for the UFH controllers.** Our extension has underfloor heating but I can't control it from an App, this would fix that.
 - **NAS device** for storing files and running small apps/services. I used to store all pictures in full-res on my Macbook, but the library got too big. I'd like to have a local copy of everything.
+- **Standing desk.** Would be nice to be able to work standing up occasionally rather than being sat down all day.
+- **Herman Miller Aeron chair.** My current desk chair isn't doing my back any favours, an Aeron would be a proper long-term fix.
 - **New iPad for Charlotte.** The poor soul has an iPad that doesn't support Disney Plus but that helpfully saves from paying for a subscription.
 - **New Macbook.** This is not a priority, but my current Macbook (An 2021 M1 Pro, 32Gb RAM) is now 5-years old. Which is quite incredible as it's still working perfectly, but in a year or two that won't be the case.
 - **UPS.** When we lose grid power, and when we do it's most often just a few seconds, it takes 10 minutes for the network to come back, which is very annoying.
