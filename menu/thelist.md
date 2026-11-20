@@ -45,6 +45,15 @@ The List:
 1. Visit the Island of Saint Helena
 1. ✅ [Get Married][10]
 
+Supplementary List of random things:
+=========
+1. Sail across the Atlantic
+2. Visit 100 Countries
+3. Visit the Smithsonian's National Air and Space Museum (and the Udvar-Hazy Center). Specifically to see a SR-71, the Wright Flyer, the Enola Gay and the Space Shuttle Discovery
+4. Camp and Hike among the Giant Redwoods, in the Giant Forest of Sequoia National Park
+5. See the Vasa in Stockholm, Sweden
+6. Eat a Philly Cheesesteak in Philadelphia
+
 [1]: /tag/nyc
 [2]: /blog/wan-summit-talk
 [3]: /blog/post_id-3
