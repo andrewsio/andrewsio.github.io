@@ -15,7 +15,7 @@ A running list of things on our radar. In recent years we've been careful not to
 - **Water Usage Monitor.** We try our hardest to reduce our water consumption at home, but it's a lot easier to track when you can view consumption data. I fitted a cheap digital meter to our outside tap, but would love something for the incoming mains. A solution like [Watergate][watergate] would work well and allow for tracking via HomeAssistant. 
 
 ## Clothes
-- **Dubarry Boots.** I love my Dubarry's for sailing, but don't want to ruin them for dog walking, [these would be ideal][boots]. Yes, I know I have wellies too.
+- **Dubarry Walking Boots.** I love my Dubarry's for sailing, but don't want to ruin them for dog walking, [these would be ideal][boots]. Yes, I know I have wellies too.
 - **Sailing Salopettes.** I have some already, but as many sailors know, they're a pain when you need a wee. [These ones][salopettes] have a special sit-down flap. I am lazy and I get sick when down below in swell. This should help!
 
 ## Kitchen
@@ -34,13 +34,14 @@ A running list of things on our radar. In recent years we've been careful not to
 - **Neohub Gen3 for the UFH controllers.** Our extension has underfloor heating but I can't control it from an App, this would fix that.
 - **Home NAS Device** for storing files and running small apps/services. I used to store all pictures in full-res on my Macbook, but the library got too big. I'd like to have a local copy of everything. It'd also be helpful for running Home Assistant and some other bits.
 - **Standing Desk.** Would be nice to be able to work standing up occasionally rather than being sat down all day.
-- **Herman Miller Aeron Chair.** My current desk chair isn't doing my back any favours, an Aeron would be a proper long-term fix.
-- **New iPad for Charlotte.** The poor soul has an iPad that doesn't support Disney Plus but that helpfully saves from paying for a subscription.
-- **New Macbook.** This is not a priority, but my current Macbook (An 2021 M1 Pro, 32Gb RAM) is now 5-years old. Which is quite incredible as it's still working perfectly, but in a year or two that won't be the case.
-- **UPS.** When we lose grid power, and when we do it's most often just a few seconds, it takes 10 minutes for the network to come back, which is very annoying.
+- **Herman Miller Aeron Chair** My current desk chair isn't doing my back any favours, an Aeron would be a proper long-term fix.
+- **New iPad for Charlotte** The poor soul has an iPad mini that doesn't support Disney+. It does however mean we don't need to pay for a subscription. At some point iPlayer will stop working too.
+- **New Macbook** This is not a priority, but my current Macbook (An 2021 M1 Pro, 32Gb RAM) is now 5-years old. Which is quite incredible as it's still working perfectly, but in a year or two that won't be the case.
+- **Network Cabinet UPS** When we lose grid power, it takes 10 minutes for the network equipment to reboot and come back online, this is very annoying.
+- **Unifi Cloud Gateway Ultra** For an ex-network engineer we have an embarrassingly simple network. I'd like a better firewall and some ability to do multi-WAN, policy based routing, etc. 
 
 ## Health, Fitness & Family
-- **Monitor for the rower/garage.** I enjoy using the rower, but I would like a screen to watch something as I get bored listening to music.
+- **Monitor or Screen for the rower/garage.** I enjoy using the rower, but I would like a screen to watch something as I get bored listening to music and staring at the power meter.
 - **Car Seat.** *£150 each.* Charlotte is getting too big and we're going to need a new car seat, one where you use the actual seatbelt instead of dedicated straps. We'll probably need to buy two so we don't end up moving them between cars constantly. 
 - **Roof Bars and Cycle Rack.** It'd be nice to go away and take the bikes, both for holiday and for Bedgebury and things like that. We've never been able to do that as I've held off due to the cost. Ideally we'd have a towbar mounted cycle rack and roof bars for a top box. The car doesn't currently have a towbar so we'd need to get one fitted. All in the price stacks up pretty high. Would be nice though. 
 - **Laser Eye Surgery.** I wear glasses but I don't really enjoy doing so. I'd really like to have my eyes corrected so I can I can be free of them. There's probably a financial payback for this too, as glasses are expensive.
@@ -56,24 +57,21 @@ I could write a whole piece on this topic, but our general objective is to gain 
 - **Better garage storage shelving.** My garage is great, but it is small and needs slightly better organisation to best utilise it. I think installing something specific for the garage is the best plan. Not a big priority.
 
 ## Long-Term
-- **A Boat.** The big one. It's my dream to have a boat on the River Medway and to spend time sailing on it with our family. Nothing too fancy, but we'd probably aim to spend about £50k to £60k for something ready to go. We'd want some something somewhat modern, safe, suitable for light-handing, comfortable and easy to manage. I like the idea of a centre-cockpit with aft cabin, they are usually 36ft+. It'd probably a cruiser-first rather than racer-first, so some kind of mass-production Moody, Jeanneau, Beneteau, or Bavaria. We likely wouldn't race it but it'd be nice to have a cruising sail or spinnaker. Ideally we'd buy something that's going to be suitable for a decade or more. I'll keep dreaming.
-- **A Holiday Home.** I think there's a lot of truth in the concept of Blue Health, that is the idea of being on or near water has benefits for wellbeing. We'd love one day to have a small little place on the coast. Being able to see the sea would be essential, I love the idea of watching changing weather's impact on the water. Somewhere warm would be nice, perhaps outside of the UK. Mostly for retirement rather than now while we're still very content with visiting and enjoying new places. 
+- **A Boat.** The big one. It's my dream to have a boat on the River Medway and to spend time sailing on it with our family. Nothing too fancy, but we'd probably aim to spend about £50k to £60k for something ready to go. We'd want some something somewhat modern, safe, suitable for light-handing, comfortable and easy to manage. I like the idea of a centre-cockpit with aft cabin, they are usually 36ft+. It'd probably a cruiser-first rather than racer-first, so some kind of mass-production Moody, Jeanneau, Beneteau, or Bavaria. We likely wouldn't race it but it'd be nice to have a cruising sail or spinnaker. Ideally we'd buy something that's going to be suitable for a decade or more. Doesn't need to sail around the world, but a bit of coastal cruising capability would be ideal. I'll keep dreaming.
+- **A Holiday Home.** I think there's a lot of truth in the concept of Blue Health, that is the idea of being on or near water has benefits for wellbeing. We'd love one day to have a small little place on the coast. Being able to see the sea would be essential, I love the idea of watching changing weather's impact on the water. Somewhere warm would be nice, perhaps outside of the UK. Mostly for retirement rather than now while we're still very content with visiting and enjoying new places. The idea of a small 'homestead' spot on the Scottish west coast, or Wales is also quite appealing.
 
 <details markdown="1">
 <summary><h2 style="display:inline">Purchased in 2026</h2></summary>
 
 - **Shed for the back garden.** Fred the Shed joined us in May 2026, we bought him from Passmores during Rochester Sweeps festival. Dad and I installed a concrete base specifically for him along the side and we put him together once he was delivered. Having garden things stored in the shed vs the garage has helped free up space there and also means that we don't need to continually sweep the garage out of grass! We paid £340 as we got an Easter discount. Worth every penny!
-- **Air conditioner.** We didn't know this at the time, but it would turn out that 2026 would literally be the hottest year on record. We had some suspicion that it would get warm, but made the wise decision in May to order two portable air conditioning units. We paid £390 for a 9000 BTU and £330 for a 7000 BTU. Both have been a life-saver for the particularly hot periods and allowed us to sleep and relax much better. On certain days Charlotte would sleep in our room on the spare mattress on the floor! They are bloody noisy though and it's really not an ideal setup. I hope for summer 2027 we can look at a more permanent solution with efficiency and noise being who key factors. Even as I type this in September there are days where we'd likely have the bedroom temperature better controlled. Expensive, but I'm glad we did it.  
-- **Le Chameau wellies and Socks** I have wanted a pair of these for a long, long time. While on a birthday trip to Hereford we stopped at Philip Morris & Son (I had never heard of this store before), my goodness it was incredible! A proper english country store with outfitters and a gun room. I don't think I had ever seen Le Chameau on sale in an actual store and so it was hard to resist. I'm really glad we tried a few pairs on as the more expensive ones which I thought I would want, I ended up not liking and so was able to get the cheaper wellies. They are amazing. I have not had a chance to use them in anger, buying them in April, but look forward to winter this year. We paid £220, which I felt was quite reasonable. 
-- **Summer holiday 2026.** 
-- **October holiday 2026.**
-- **Birthday weekend away 2026**
-- **Victoria prescription sunglasses**
-- **Garmin body scales.**
-- **Dumbbell set.**
-- **Bluetooth HR monitor for rower.**
+- **Portable Air conditioner.** We didn't know this at the time, but it would turn out that 2026 would literally be the hottest year on record. We had some suspicion that it would get warm, but made the wise decision in May to order two portable air conditioning units. We paid £390 for a 9000 BTU and £330 for a 7000 BTU. Both have been a life-saver for the particularly hot periods and allowed us to sleep much better. On certain days Charlotte would sleep in our room on the spare mattress on the floor! They are bloody noisy though and it's really not an ideal setup. I hope for summer 2027 we can look at a more permanent solution with efficiency and noise being who key factors. Even as I type this in September there are days where we'd likely have the bedroom temperature better controlled. Expensive, but I'm glad we did it.  
+- **Le Chameau wellies and Socks** I have wanted a pair of these for a long, long time. While on a birthday trip to Hereford we stopped at Philip Morris & Son (I had never heard of this store before), my goodness it was incredible! A proper english country store with outfitters and a gun room. I don't think I had ever seen Le Chameau on sale in an actual shop and so it was hard to resist. I'm really glad we tried a few pairs on as the more expensive ones which I thought I would want, I ended up not liking and so was able to get the cheaper wellies. They are amazing. I have not had a chance to use them in anger, buying them in April, but look forward to winter this year. We paid £220, which I felt was quite reasonable. 
+- **Victoria prescription sunglasses** A no-brainer.
+- **Garmin body scales** Worth the price, IMO. They work well, recognise both of us automatically and upload body data directly to Garmin. We had Eufy smart scales previously, bit rubbish.
+- **Dumbbell set** Just a few different weights from Decathlon. They work fine for what we need. Expensive but they will last.
+- **Bluetooth HR monitor for rower** Originally wanted a £100+ Garmin one, settled for a cheap thing from AliExpress. Works great. 
 - **Bigger and better tent.** needs two rooms, height to stand up, blackout, and an awning space. We went with:[Decathlon][tent] and the Arpenaz awning.
-- **Beds and bedding for the tent.** we went with: [bed base][bed-base] and [mattress][mattress]. Absolute camping gamechanger. 
+- **Beds and bedding for the tent** A bit of an investment here..! Sleep is sleep. We went with: [bed base][bed-base] and [mattress][mattress] from Decathlon. Absolute camping game-changer. Bit of a faff to get ready and pack away, but worth it for a night's rest. We're also not pitching up on a mountain side, so as long as it fits in the car, it's a worthwhile luxury.
 
 </details>
 
